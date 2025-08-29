@@ -24,9 +24,9 @@ set -u
 
 # ---- Configuration ----
 DEVICE="${DEVICE:-/dev/sr1}"
-SRC_ROOT="${SRC_ROOT:-/media/den/Genki1_text1}"
+SRC_ROOT="${SRC_ROOT:-/media/}"
 # Adjust these for your disc's top-level directories
-FOLDERS=("Genki1_KaiwaBunpo-hen" "Genki1_Yomikaki-hen")
+FOLDERS=("Folder_1" "Folder_2")
 DEST="${DEST:-$HOME/cd_copy}"
 
 RATE="${RATE:-150k}"            # pv rate limit (e.g., 150k, 120k, 100k)
